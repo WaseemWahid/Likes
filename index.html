@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+            <div class="header">
+                <h1>Network</h1>
+            </div>
+            <div class="your-feed">
+                <h1>Your feed</h1>
+            </div>
+        <div class="main flex">
+            <div class=" user-card col-1">
+                <div class="user-contents">
+                            <div>
+                                <img src="user-circle.png" alt="user-photo">
+                                <p><a href="http://">Add an avatar</a></p> 
+                                <div>
+                                    <h2>Waseem Wahid</h2>
+                                </div>
+                            </div>
+                            
+                </div>
+            </div>
+            <div class="feed-cards col-3">
+                <div class="feed">
+                    <div class=" flex align-center space-between">
+                        <h1>Neil M</h1>
+                            <p>
+                                <stan id="count1">9</stan>Like(s)
+                                <button onclick="like('#count1')">Like</button>
+                            </p>
+                        
+                    </div>
+                        <div>
+                            <p>I just set up this new discord not, let me know what you all think. <a href="http://">link.</a></p>
+                        </div>
+                </div>
+                <div class="feed">
+                    <div class=" flex align-center space-between">
+                        <h1>Neil M</h1>
+                        <p>
+                            <stan id="count2">12</stan>Like(s) 
+                            <button onclick="like('#count2')">Like</button>
+                        </p>
+                    </div>
+                            <div>
+                                <p>Just finished my <a href="http://">next comic</a>, check it out.</p>
+                            </div>
+                </div>
+                <div class="feed"> 
+                    <div class=" flex align-center space-between">
+                        <h1>Neil M</h1><p><stan id="count3">9</stan>Like(s) <button onclick="like('#count3')">Like</button></p>
+                    </div>
+                    <div>
+                        <p>I cant stop listening to the <a href="http://">new album</a>. Who else likes it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
